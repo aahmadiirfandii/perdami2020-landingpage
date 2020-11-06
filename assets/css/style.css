@@ -254,7 +254,7 @@
 }
 
 .style-2 .header-top {
-  background: #383a50;
+  background: #fff;
   overflow: hidden;
 }
 .style-2 .header-top .htop-area {
@@ -296,7 +296,7 @@
   color: #fd3d6b;
 }
 .style-2 .header-bottom .primary-menu {
-  background: #fff;
+  background: #383a50;
   position: static;
   transition: all 0.3s ease;
 }
@@ -315,7 +315,7 @@
   color: #383a50;
 }
 .style-2 .header-bottom .primary-menu .menu-area .main-menu li a {
-  color: #383a50;
+  color: #fff;
 }
 .style-2 .header-bottom .primary-menu .menu-area .main-menu li.head-contact {
   border-left: 1px solid #ededed;

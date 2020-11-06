@@ -1,0 +1,15 @@
+.banner-bottom-sponsors img {
+	filter: none;
+}
+
+#img-register {
+	margin-left: -75px;
+}
+
+#wrap-register {
+	margin-top: -140px;
+}
+
+.submenu li a, .sticky-nav .main-menu li a {
+	color: #383a50 !important;
+}
