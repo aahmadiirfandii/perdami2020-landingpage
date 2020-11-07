@@ -2,8 +2,12 @@
 	filter: none;
 }
 
+#img-meeting {
+	margin-left: 550px;
+}
+
 #img-register {
-	margin-left: -75px;
+	margin-left: 440px;
 }
 
 #wrap-register {
@@ -12,4 +16,31 @@
 
 .submenu li a, .sticky-nav .main-menu li a {
 	color: #383a50 !important;
+}
+
+.primary-menu,
+.primary-menu .menu-area .main-menu {
+	height: 70px;
+}
+
+.btn-nav{
+	padding: 15px 20px !important;
+}
+
+.banner-section.style-4{
+	height: auto;
+}
+
+#footer-informasi .fas, #footer-informasi .fab{
+	font-size: 1.4rem;
+}
+
+.judul-text {
+	font-size: 1.6rem;
+	font-weight: 600;
+}
+
+.sub-judul {
+	font-size: 1.1rem;
+	font-weight: 460;
 }
