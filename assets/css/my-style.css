@@ -44,3 +44,16 @@
 	font-size: 1.1rem;
 	font-weight: 460;
 }
+
+.wrap-registration-fee {
+	background-color: #F2F2F2;
+	padding: 40px 0px;
+}
+
+#table-color {
+	background-color: #fff;
+}
+
+.checklist {
+	content: \2713;
+}
