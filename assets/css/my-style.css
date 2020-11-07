@@ -57,3 +57,13 @@
 .checklist {
 	content: \2713;
 }
+
+.cp{
+	margin-bottom: .1rem;
+}
+
+.speaker-section.style-1 .section-wrapper .speaker-item .speaker-item-inner .item-thumbx{
+	position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+}
