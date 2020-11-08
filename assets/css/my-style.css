@@ -1,3 +1,5 @@
+
+
 .banner-bottom-sponsors img {
 	filter: none;
 }
@@ -82,7 +84,7 @@
 }
 
 .primary-menu .menu-area .main-menu li a{
-	padding: 38px 8px;
+	/*padding: 38px 8px;*/
 }
 
 .style-2 .dd-icon-down::before, .style-2 .dd-icon-down::after{
