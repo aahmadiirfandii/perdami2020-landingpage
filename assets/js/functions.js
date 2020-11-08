@@ -1,7 +1,7 @@
 (function($){
     "use strict";
     $(document).ready(function(){
-        // lightcase 
+        // lightcase
         $('a[data-rel^=lightcase]').lightcase();
 
         window.FontAwesomeConfig = {
@@ -35,7 +35,7 @@
                 element.siblings('li').find('li').removeClass('open');
                 element.siblings('li').find('ul').slideUp(1000,"swing");
             }
-        }); 
+        });
 
 
 
@@ -46,7 +46,7 @@
 
             if (menupos.left + menu.width() > $(window).width()) {
                 var newpos = -$(menu).width();
-                menu.css({ left: newpos });    
+                menu.css({ left: newpos });
             }
         });
 
@@ -54,7 +54,7 @@
         $('.scrollToTop').on('click', function() {
             $('html, body').animate({scrollTop : 0},500);
             return false;
-        }); 
+        });
 
         // tabile clopse
         $("td[colspan=3]").find(".content").hide();
@@ -65,9 +65,9 @@
                 $target.slideUp();
             } else {
                 $target.closest("tr").next().find(".content").slideToggle();
-           
-            }                    
-        }); 
+
+            }
+        });
 
         // sidebar slider
         var swiper = new Swiper('.sidebar-slider',{
@@ -83,12 +83,13 @@
                 disableOnInteraction: false,
             },
             loop: true
-        }); 
+        });
 
         //countdown
         var nextyear = '12/31/2020 17:00:00';
+        var hariAcara = '12/04/2020 09:00:00'
         $('.bcr_countdown').countdown({
-            date: nextyear, //TODO Date format: 12/31/2020 17:00:00
+            date: hariAcara, //TODO Date format: 12/31/2020 17:00:00
             offset: +2,
             day: 'Day',
             days: 'Days'
@@ -107,7 +108,7 @@
         // $('#event-rs-thumb').tilt({
         //     maxTilt: 3,
         //     glare: false,
-        //     maxGlare: 1 
+        //     maxGlare: 1
         // });
 
         // collapse
@@ -115,9 +116,9 @@
             $(".collapse").collapse('toggle');
         });
 
-        // isotop 
+        // isotop
         $(window).on('load',function() {
-            // preloder 
+            // preloder
             $('.preloader').fadeOut(1000);
 
             // isotop
@@ -135,7 +136,7 @@
                     }
                 }
             });
-            
+
             // masonary section start here
             $('.grid-one').isotope({
                 itemSelector: '.grid-item',
@@ -212,7 +213,7 @@
 
 
 
-        // blog slider 
+        // blog slider
         var swiper = new Swiper('.blog-slider',{
             slidesPerView: 3,
             speed: 1200,
@@ -232,7 +233,7 @@
         });
 
 
-        // achivement section start here 
+        // achivement section start here
         var swiper = new Swiper('.achive-slider',{
             slidesPerView: 3,
             spaceBetween: 0,
