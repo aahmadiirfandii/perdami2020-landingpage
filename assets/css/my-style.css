@@ -18,6 +18,19 @@
 	color: #383a50 !important;
 }
 
+ .sticky-nav .main-menu .btn-nav{
+ 	color: #fff !important;
+ }
+
+  .sticky-nav .main-menu .btn-login{
+ 	color: #383a50 !important;
+ }
+
+ .sticky-nav .main-menu .btn-login:hover{
+ 	color: #fff !important;
+ }
+
+
 .primary-menu,
 .primary-menu .menu-area .main-menu {
 	height: 70px;
@@ -66,4 +79,16 @@
 	position: relative;
     overflow: hidden;
     border-radius: 12px;
+}
+
+.primary-menu .menu-area .main-menu li a{
+	padding: 38px 8px;
+}
+
+.style-2 .dd-icon-down::before, .style-2 .dd-icon-down::after{
+	background: #e6e6e6;
+}
+
+.submenu{
+	top: 80px;
 }
