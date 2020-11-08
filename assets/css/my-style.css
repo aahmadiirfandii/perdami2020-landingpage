@@ -84,7 +84,7 @@
 }
 
 .primary-menu .menu-area .main-menu li a{
-	/*padding: 38px 8px;*/
+	padding: 38px 7px;
 }
 
 .style-2 .dd-icon-down::before, .style-2 .dd-icon-down::after{
@@ -93,4 +93,15 @@
 
 .submenu{
 	top: 80px;
+}
+
+.banner-section.style-4{
+	background: #fff;
+}
+
+@media (min-width: 1500px){
+	.padding-c{
+		padding-left: 5rem !important;
+		padding-right: 5rem;
+	}
 }
