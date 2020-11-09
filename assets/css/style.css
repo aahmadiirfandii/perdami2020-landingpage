@@ -221,8 +221,8 @@
 .primary-menu.sticky-nav {
   background: #fff !important;
   box-shadow: 0 0 10px -1px rgba(0, 0, 0, 0.1);
-  top: -102px;
-}
+  /*top: -102px;*/
+ }
 .primary-menu.sticky-nav.nav-down {
   top: 0;
 }
