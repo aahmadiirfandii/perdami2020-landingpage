@@ -116,8 +116,12 @@
 								<li class="active"><a href="gallery.html">Gallery</a></li>
 							</ul>
 							<ul class="main-menu d-flex align-items-center navbar-right">
-								<li><a href="#" class="btn-defult btn-nav">Virtual Meeting</a></li>
-								<li><a href="#" class="btn-defult btn-nav">Register</a></li>
+								<li>
+									<a href="#" class="btn-defult btn-nav" data-toggle="modal" data-target="#mdl-virtual-meeting">Virtual Meeting</a>
+								</li>
+								<li>
+									<a href="#" class="btn-defult btn-nav" data-toggle="modal" data-target="#mdl-register">Register</a>
+								</li>
 								<li><a href="#" class="reg-head btn-nav btn-login">Login</a></li>
 							</ul>
 						</div>
@@ -172,7 +176,38 @@
     </section>
     <!-- footer section ending here -->
 
-
+    <!--Begin Modal -->
+	<div class="modal fade" id="mdl-virtual-meeting" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title">Virtual Meeting Information</h4>
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+				</div>
+				<div class="modal-body text-center">
+					<div class="alert alert-warning" role="alert">
+ 						 <h3>Will be open on December 4, 2020</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="mdl-register" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title">Register Information</h4>
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+				</div>
+				<div class="modal-body text-center">
+					<div class="alert alert-warning" role="alert">
+ 						 <h3>Registration will be open soon</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--End Modal -->
 
   	<script src="assets/js/jquery.js"></script>
     <script src="assets/js/snap.svg-min.js"></script>

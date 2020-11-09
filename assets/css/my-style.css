@@ -132,3 +132,17 @@
 #register-info {
 	margin-bottom: -60px;
 }
+
+.check-list li::marker{
+	padding-right: 10px;
+    color: #fd3d6b;
+    font-size: 0.875rem;
+    position: absolute;
+    content: "";
+    font-family: "Font Awesome 5 Free";
+    color: #fd3d6b;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: 600;
+}
