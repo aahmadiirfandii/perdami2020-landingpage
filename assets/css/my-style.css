@@ -159,3 +159,13 @@
 	background-color: #fff;
 	color: salmon !important;
 }
+
+.close-button {
+	position: absolute;
+    right: -14px;
+    top: -29px;
+}
+
+.modal-lg {
+	max-width: 90vw;
+}
