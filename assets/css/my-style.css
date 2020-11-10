@@ -83,7 +83,7 @@
 }
 
 .primary-menu .menu-area .main-menu li a{
-	padding: 38px 7px;
+	padding: 38px 6px;
 }
 
 .style-2 .dd-icon-down::before, .style-2 .dd-icon-down::after{
@@ -153,4 +153,9 @@
 
 .pop-up-hover {
 	color: #fff;
+}
+
+.close:hover {
+	background-color: #fff;
+	color: salmon !important;
 }
